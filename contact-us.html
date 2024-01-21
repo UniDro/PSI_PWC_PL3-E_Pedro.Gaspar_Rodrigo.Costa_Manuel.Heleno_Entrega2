@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/imgs/logo.svg" alt="logotipo" id="nav-logo-img"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="vercaes.html">Adotar</a>
+                    <a class="nav-link" href="loja.html">Loja</a>
+                    <a class="nav-link" href="favoritos.html">Favoritos</a>
+                    <a class="nav-link" href="aboutus.html">Sobre nós</a>
+                    <a class="nav-link active" aria-current="page" href="contact-us.html">Contacte nos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <header class="container-fluid py-4 mb-5" id="custom-header">
+            <h1 class="text-center">Contacte-nos</h1>
+        </header>
+    </header>
+    <div class="container px-5 my-5">
+        <form>
+            <div class="mb-3">
+                <label class="form-label" for="nomeCompleto">Nome completo</label>
+                <input class="form-control" id="nomeCompleto" type="text" placeholder="Nome completo" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="endrecoDeEmail">Endreço de email</label>
+                <input class="form-control" id="endrecoDeEmail" type="email" placeholder="Endreço de email" />
+                
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" type="text" placeholder="Mensagem"></textarea>
+                
+            </div>
+
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Enviar</button>
+            </div>
+        </form>
+        
+        <script src="assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

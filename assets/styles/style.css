@@ -1,0 +1,52 @@
+body{
+    background-color: #FAE7C9;
+    
+}
+#custom-navbar{
+    background-color:#B0926A;
+    
+}
+#nav-logo-img{
+    width: 32px;
+    height: 32px;
+}
+
+#custom-header{
+    background-color: #E1C78F;
+}
+
+.animal-img{
+    max-height: 350px;
+    min-height: 350px;
+}
+
+
+.up-down{
+    height: 12px;
+    font-size: 12px;
+    padding: 2px 3px;
+    margin-top: 0px;
+    
+    
+}
+.btn-icon-fav, .btn-icon-defav{
+    /*Botão que contém o icon favorito*/
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #ffff;
+}
+
+
+
+.form-group{
+    margin: 1rem;
+}
+
+
+.custom-card-icon{
+    width: 16px;
+    height: 16px;
+}
